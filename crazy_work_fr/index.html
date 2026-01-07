@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My HTML Homepage</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <script>
+  function muteAudio() {
+    document.getElementById("bgAudio").muted = true;
+  }
+
+  function unmuteAudio() {
+    document.getElementById("bgAudio").muted = false;
+  }
+</script>
+
+</head>
+<body>
+
+<button onclick="changeBackground(1)">Wallpaper</button>
+<button onclick="changeBackground(2)">Wallpaper</button>
+
+<script>
+  function changeBackground(a) {
+    if(a === 1) {
+      document.body.style.backgroundImage = "url('image/cover.jpg')";
+    } else if(a === 2) {
+      document.body.style.backgroundImage = "url('image/Green.jpg')";
+    }
+  }
+</script>
+<p id="Style1">Hello! It was nice seeing you here in my portfolio!</p>
+  <script>
+    function myStyle()
+    {
+      document.getElementById("Style1").style.fontSize="40px";
+      document.getElementById("Style1").style.color="black";
+      document.getElementById("Style1").style.backgroundColor="Grey"
+      document.getElementById("Style1").style.fontFamily="Caviar"
+    }
+  </script>
+
+  <button type="button" onclick="myStyle()">Click this</button>
+
+
+  <h1 style="font-size: 50px;"><em>Selamat Datang</em></h1>
+  <p style="font-size: 15px">Hi! My name is Muhammad Hisham bin Mohd Hamidy, a Diploma in Information Management student. 
+  This website showcases <br>my background, education, experience, family, and personal interests. 
+  Feel free to explore each section to learn more about me! </p>
+
+  <h2 style="color: white;"><em>Home Page</em></h2>
+
+  <img src="image/profilepic.jpg" alt="My Profile Picture" class="profile-pic">
+
+  <h2><strike>"Never Do anything half-baked"</strike><br>Give full contribution in everything you started</h2>
+
+<bdo dir="rtl" style=" display:inline-block; border: 2px solid indianred; padding: 5px 10px; border-radius: 5px;">
+  It's amazing that you can read this!
+</bdo>
+
+  
+  <!-- Gallery, Experience, Education, Biodata buttons -->
+  <p style="font-size:20px">Explore my journey through the navigation buttons below.</p>
+
+  <p class="button-row">
+    <a href="gallery_page.html" target="_blank" title="Gallery Page">
+      <img src="button/button_gallery.png" alt="Gallery Button">
+    </a>
+
+    <a href="experience.html" target="_blank"title="Experience Page">
+      <img src="button/button_experience.png" alt="Experience Button">
+    </a>
+
+    <a href="education.html" target="_blank" title="Education Page">
+      <img src="button/button_education.png" alt="Education Button">
+    </a>
+
+    <a href="Biodata_.html" target="_blank" title="Biodata Page">
+      <img src="button/biodata.png" alt="Biodata Button">
+    </a>
+
+  <a href="family_page.html" target="_blank" title="Family Page">
+      <img src="button/button_family.png" alt="Family Button">
+
+  <a href="Achievement_pages.html" target="_blank" title="Achievement Page">
+      <img src="button/button_achievement.png" alt="Achievement Button">
+</a>
+
+  <center><iframe src="https://free.timeanddate.com/clock/ia74p5dg/n3832/tlmy/fn14/fs20/pc000/ftb/bas2/bat6/pa10/tt0/th1/ta1" frameborder="0" width="502" height="47"></iframe>
+
+    <!-- Social media icons -->
+  <p class="social-links">
+    <a href="https://www.instagram.com/hisham__77777?igsh=YW1jaDA0b2psOXAz" target="_blank">
+      <img src="image/insta.png" title="Instagram Page" alt="Instagram Profile">
+    </a>
+    <a href="https://www.tiktok.com/@kokuotango777?_r=1&_t=ZS-915mHx1rMYv" target="_blank">
+      <img src="image/tiktok.png" title="TikTok Page" alt="TikTok Profile">
+    </a>
+  </p>
+
+    <blockquote cite= "https://www.brainyquote.com/quotes/albert_einstein_737829">"Life is like riding a bicycle. To keep your balance, you must keep moving"</blockquote><br>
+
+<div style="text-align:center; margin:15px;">
+  <button onclick="muteAudio()">Mute</button>
+  <button onclick="unmuteAudio()">Unmute</button>
+</div>
+
+  <audio controls>
+    <source src="audio/cinematic.mp3" type="audio/mp3"> Your Browser does not support audio element
+  </audio><br>
+</center>
+
+  <br><br><footer>
+    © 2025 Muhammad Hisham bin Mohd Hamidy. All Rights Reserved.
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,161 @@
+body 
+{
+  background-image: url("../image/cover.jpg");
+  font-family: "Times New Roman", sans-serif;
+  color: white;
+  border: 3px solid white;
+  border-radius: 35px;
+  box-shadow: 0 8px 20px;
+  text-align: center;
+}
+
+    h1, p, h2, footer {
+      text-align: center;
+    }
+
+
+    .social-links a img {
+      width: 50px;
+      height: 50px;
+      margin: 0 30px;
+      vertical-align: middle;
+      transition: transform 0.3s ease;
+    }
+
+    .social-links a img:hover {
+      transform: scale(1.1);
+    }
+
+    /* Buttons row */
+    .button-row a {
+      display: inline-block;
+      margin: 25px;
+    }
+
+    .button-row a img {
+      transition: transform 0.3s ease;
+    }
+
+    .button-row a img:hover {
+      transform: scale(1.1);
+    }
+
+    img.profile-pic {
+      width: 100px;
+      height: 180px;
+      border: 3px solid black;
+    }
+
+    
+    .gallery-item {
+    text-align: center;
+    margin-bottom: 30px;
+    }
+
+   .gallery-item img {
+   width: 300px;
+   border-radius: 10px;
+   }
+
+  .gallery-item p {
+  margin-top: 8px;
+  font-family: sans-serif;
+  }
+
+.gif-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.gif-container img {
+  width: 80px;
+  height: auto;
+}
+.education-page {
+  text-align: left;
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.edu-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.edu-header p {
+  max-width: 600px;
+  margin: auto;
+}
+
+.edu-card {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+
+  margin-bottom: 90px; /* ruang antara dua kotak */
+
+  background: lightgreen; 
+  padding: 30px;
+  border-radius: 25px;
+}
+
+.edu-card:last-child {
+  margin-bottom: 0;
+}
+
+.edu-card.reverse {
+  flex-direction: row-reverse;
+}
+
+.edu-image img {
+  width: 280px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.edu-content h2 {
+  margin-bottom: 5px;
+}
+
+.edu-year {
+  color: black;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.edu-content ul {
+  color: black;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.highlight {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.edu-link {
+  color: white;          
+  text-decoration: none; 
+  transition: color 0.3s ease;
+}
+
+.edu-link:hover {
+  color: darkred;
+}
+.edu-link-uitm {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.edu-link-uitm:hover {
+  color: darkred;
+  font-weight: bold;
+}
+
+
+
